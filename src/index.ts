@@ -22,6 +22,10 @@ const axis = new THREE.AxesHelper(10);
 
 scene.add(axis);
 
+const grid = new THREE.GridHelper(10, 10);
+
+scene.add(grid);
+
 // add lights
 const light = new THREE.DirectionalLight(0xffffff, 1.0);
 
